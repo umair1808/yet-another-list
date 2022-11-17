@@ -1,0 +1,60 @@
+h1, h2, h3, h4, h5, h6  {
+    font-weight: normal;
+}
+
+.divider {
+    height: 1rem;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border: none;
+    border-bottom: 10px dotted rgba(0, 0, 0, 0.312);
+    width: 7%;
+    margin: 3% 0;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.title-img{
+    width: 45%;
+}
+
+.download-btn{
+    margin-right: 10px;
+}
+
+.features-row {
+    /* text-align: center; */
+}
+
+.features-col {
+
+}
+
+.feature-title {
+    font-size: 1.2rem;
+}
+
+.features-dscr {
+    color:darkgrey;
+}
+
+
+@media (max-width: 992px) {
+    #home {
+        text-align: center;
+    }
+
+    #home h1 {
+       font-size: 1.5rem;
+    }
+
+    #home h2 {
+        font-size: 1rem;
+     }
+
+     .title-img {
+        margin-top: 10px;
+     }
+}
